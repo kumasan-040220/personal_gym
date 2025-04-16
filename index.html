@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Revive Body - 完全予約制パーソナルジム</title>
+    <meta
+      name="description"
+      content="変わりたい、を今ここで。完全予約制パーソナルジム「Revive Body」でトレーニング初心者でも安心して通えるジムです。"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <h1 class="header__logo">Revive Body</h1>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li><a href="#features">特徴</a></li>
+              <li><a href="#trainers">トレーナー</a></li>
+              <li><a href="#testimonials">お客様の声</a></li>
+              <li><a href="#faq">よくある質問</a></li>
+              <li><a href="#contact" class="btn btn--accent">体験予約</a></li>
+            </ul>
+          </nav>
+          <button class="header__hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- ファーストビュー -->
+      <section class="hero">
+        <div class="hero__content">
+          <h2 class="hero__title">変わりたい、を今ここで。</h2>
+          <p class="hero__subtitle">完全予約制パーソナルジム Revive Body</p>
+          <a href="#contact" class="btn btn--large">無料カウンセリング予約</a>
+        </div>
+      </section>
+
+      <!-- 特徴紹介 -->
+      <section class="features" id="features">
+        <div class="container">
+          <h2 class="section-title">Revive Bodyの特徴</h2>
+          <div class="features__grid">
+            <div class="feature-card">
+              <div
+                class="feature-card__image"
+                style="
+                  background-image: url('img/jonathan-borba-R0y_bEUjiOM-unsplash.jpg');
+                "
+              ></div>
+              <h3 class="feature-card__title">完全個室のプライベート空間</h3>
+              <p class="feature-card__text">
+                他の人の目を気にせず、自分だけの空間でトレーニングに集中できます。初めての方でも安心してご利用いただけます。
+              </p>
+            </div>
+            <div class="feature-card">
+              <div
+                class="feature-card__image"
+                style="
+                  background-image: url('img/nathan-dumlao-NXMZxygMw8o-unsplash.jpg');
+                "
+              ></div>
+              <h3 class="feature-card__title">
+                科学的根拠に基づいたトレーニング
+              </h3>
+              <p class="feature-card__text">
+                最新の研究に基づいた効率的なメソッドで、無理なく結果を出せるプログラムをご提案します。
+              </p>
+            </div>
+            <div class="feature-card">
+              <div
+                class="feature-card__image"
+                style="background-image: url('img/couple-7437534_1280.jpg')"
+              ></div>
+              <h3 class="feature-card__title">国家資格保持トレーナー在籍</h3>
+              <p class="feature-card__text">
+                資格を持った専門家があなたの体の状態を正確に分析し、最適なトレーニングをご提案します。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- トレーナー紹介 -->
+      <section class="trainers" id="trainers">
+        <div class="container">
+          <h2 class="section-title">トレーナー紹介</h2>
+          <div class="trainer-profile">
+            <div
+              class="trainer-profile__image"
+              style="
+                background-image: url('img/christian-buehner-QLcxFso3gLk-unsplash.jpg');
+              "
+            ></div>
+            <div class="trainer-profile__content">
+              <h3 class="trainer-profile__name">
+                田中 健<span>Tanaka Ken</span>
+              </h3>
+              <p class="trainer-profile__message">
+                「あなたの"なりたい"に本気で寄り添います。」
+              </p>
+              <p class="trainer-profile__text">
+                10年以上のパーソナルトレーニング経験を持ち、数百名の体の悩みを解決してきました。
+                運動が苦手な方でも、一人ひとりに合わせたプログラムで理想の体へと導きます。
+                保有資格：健康運動指導士、NSCA-CPT
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- お客様の声 -->
+      <section class="testimonials" id="testimonials">
+        <div class="container">
+          <h2 class="section-title">お客様の声</h2>
+          <div class="testimonials__grid">
+            <div class="testimonial-card">
+              <div class="testimonial-card__image"></div>
+              <p class="testimonial-card__text">
+                「3ヶ月で-8kg！無理なく続けられました」
+              </p>
+              <p class="testimonial-card__author">30代女性</p>
+            </div>
+            <div class="testimonial-card">
+              <div class="testimonial-card__image"></div>
+              <p class="testimonial-card__text">
+                「肩こりも改善され、姿勢が良くなった」
+              </p>
+              <p class="testimonial-card__author">40代男性</p>
+            </div>
+            <div class="testimonial-card">
+              <div class="testimonial-card__image"></div>
+              <p class="testimonial-card__text">
+                「完全個室だから恥ずかしくないのが良い！」
+              </p>
+              <p class="testimonial-card__author">20代女性</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- よくある質問 -->
+      <section class="faq" id="faq">
+        <div class="container">
+          <h2 class="section-title">よくある質問</h2>
+          <div class="faq__items">
+            <div class="faq-item">
+              <div class="faq-item__question">
+                <h3>Q. 運動が苦手でも大丈夫ですか？</h3>
+                <span class="faq-item__icon"></span>
+              </div>
+              <div class="faq-item__answer">
+                <p>
+                  はい、初心者向けのプログラムをご用意しています。トレーニング経験が全くない方でも、基礎から丁寧に指導いたしますのでご安心ください。
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-item__question">
+                <h3>Q. 料金体系を教えてください。</h3>
+                <span class="faq-item__icon"></span>
+              </div>
+              <div class="faq-item__answer">
+                <p>
+                  入会金10,000円、月会費は回数によって異なります。詳細は無料カウンセリング時にご説明いたします。初回体験トレーニングは3,000円でご利用いただけます。
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-item__question">
+                <h3>Q. どのくらいの期間で結果が出ますか？</h3>
+                <span class="faq-item__icon"></span>
+              </div>
+              <div class="faq-item__answer">
+                <p>
+                  個人差はありますが、多くの方が2〜3ヶ月で体型や体調の変化を実感されています。目標や現在の状態に合わせた計画をご提案いたします。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- お問い合わせ・体験予約 -->
+      <section class="contact" id="contact">
+        <div class="container">
+          <h2 class="section-title">無料カウンセリング予約</h2>
+          <div class="contact__inner">
+            <div class="contact__info">
+              <p>
+                まずは無料カウンセリングでお話をお聞かせください。あなたにぴったりのトレーニングプランをご提案いたします。
+              </p>
+              <div class="contact__line">
+                <a href="#" class="btn btn--line">
+                  <i class="fab fa-line"></i> LINEで予約する
+                </a>
+                <p>LINE ID: @revivebody</p>
+              </div>
+            </div>
+            <form class="contact-form">
+              <div class="form-group">
+                <label for="name">お名前（必須）</label>
+                <input type="text" id="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">メールアドレス（必須）</label>
+                <input type="email" id="email" required />
+              </div>
+              <div class="form-group">
+                <label for="tel">電話番号</label>
+                <input type="tel" id="tel" />
+              </div>
+              <div class="form-group">
+                <label for="message">ご質問・ご要望</label>
+                <textarea id="message" rows="5"></textarea>
+              </div>
+              <button type="submit" class="btn btn--accent btn--block">
+                予約する
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__info">
+            <h2 class="footer__logo">Revive Body</h2>
+            <p class="footer__address">
+              〒123-4567<br />
+              東京都渋谷区〇〇町1-2-3<br />
+              TEL: 03-1234-5678
+            </p>
+            <div class="footer__social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+          </div>
+          <nav class="footer__nav">
+            <ul>
+              <li><a href="#features">特徴</a></li>
+              <li><a href="#trainers">トレーナー</a></li>
+              <li><a href="#testimonials">お客様の声</a></li>
+              <li><a href="#faq">よくある質問</a></li>
+              <li><a href="#contact">体験予約</a></li>
+            </ul>
+          </nav>
+        </div>
+        <p class="footer__copyright">
+          &copy; 2023 Revive Body All Rights Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
